@@ -1,15 +1,12 @@
+
 import './App.css';
+import Giphy from './Components/pages/Giphy';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-       
-      </header>
+      
+     <Giphy />
     </div>
   );
 }
